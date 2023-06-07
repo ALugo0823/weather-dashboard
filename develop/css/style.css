@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+    font-size: large;
+}
+
+body {
+    margin: 5px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #4663d8;
+}
+
+.search-panel {
+    width: 20%;
+    margin: 10px 20px 0 10px;
+    padding: 10px 0 10px 10px;
+    background-color: #4663d8;
+}
+
+.search-button-panel {
+    margin-left: -45px;
+}
+
+.city-list-box {
+    margin-top: 5px;
+}
+
+.city-name {
+    width: 89%;
+}
+
+.results-panel {
+    width: 70%;
+    padding-bottom: 10px;
+    visibility: hidden;
+}
+
+.current-conditions-panel {
+    border: 1px solid #C0C0C0;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.name-block,
+.uv-index-block {
+    display: flex;
+    align-items: center;
+}
+
+#uv-index {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.forecast-panel {
+    padding-top: 50px;
+}
+
+.container {
+    display: inline;
+}
+
+.card-header,
+.card-body {
+    text-align: center;
+}
+
+.card-header {
+    background-color: #4663d8;
+    color: white;
+}
+
+.card-body {
+    background-color: lightblue;
+}
+
+
+
+/* classes added to the UVI data */
+
+.light {
+    background-color: green;
+    color: white;
+}
+
+.moderate {
+    background-color: yellow;
+    color: black;
+}
+
+.severe {
+    background-color: red;
+    color: white;
+}
