@@ -106,7 +106,7 @@ function titleCase(city) {
     return newCity;
 }
 
-// This converts the UNIX time that is received from the server.
+// function that converts the UNIX time that is received from the server.
 function unixConverter(data, index) {
     const currentDate = new Date(data.daily[index + 1].dt * 1000);
 
